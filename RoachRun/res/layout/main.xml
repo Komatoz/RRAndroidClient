@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".MainActivity" >
+
+   
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="RoachRun 0.001 preAlfa"
+         android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnMapStart"
+         android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+       android:onClick="MyClick"  
+        
+         android:layout_gravity="center"
+        android:text="Run!" />
+    
+    
+     <Button
+        android:id="@+id/btnRunList"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+        android:onClick="MyClick"
+        android:text="Список ранов" />
+     
+     
+        <Button
+        android:id="@+id/btnRunList"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+        android:onClick="MyClick"
+        android:text="Создать ран" />
+
+
+</LinearLayout>
